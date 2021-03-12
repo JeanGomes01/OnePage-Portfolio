@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.menu-mobile {
+    display: none;
+}
+
 .center {
     max-width: 1100px;
     margin: 0 auto;
@@ -88,7 +92,7 @@ section.main {
 }
 
 .main_cta p {
-    color: gray;
+    color: #007bFF;
     font-size: 19px;
     margin: 10px 0;
 }
@@ -179,10 +183,42 @@ section.main {
     margin-top: 10px;
 }
 
+section.conquistas {
+    background-color: #f8fbfe;
+    padding: 20px 0;
+}
+
+.conquista-single {
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+    color: #124265;
+}
+
+.conquista-single h2 {
+    font-size: 30px;
+}
+
 @media screen and (max-width:768px) {
     .diferencial-single {
         width: 100%;
         margin-bottom: 20px;
+    }
+    .menu {
+        display: none;
+    }
+    .logo {
+        width: 20%;
+    }
+    .menu-mobile {
+        width: 80%;
+        display: block;
+        text-align: right;
+    }
+    .menu-mobile i {
+        cursor: pointer;
+        font-size: 23px;
+        margin-top: 8px;
     }
     .conteudo-sobre p {
         width: 100%;
